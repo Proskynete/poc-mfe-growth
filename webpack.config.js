@@ -30,7 +30,7 @@ module.exports = {
       library: { type: "var", name: "growth" },
       filename: "@d-Una",
       exposes: {
-        "./CounterAppTwo": "./src/components/CounterAppTwo",
+        "./": "./src/App",
       },
       shared: {
         ...deps,
